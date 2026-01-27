@@ -1,0 +1,52 @@
+/* ================= PSEUDO-CLASSES ================= */
+
+/* Change heading color when mouse hovers */
+h2:hover {
+    color: blue;
+    background-color: lightyellow;
+}
+
+/* Change list item color on hover */
+li:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/* Style first list item */
+ol li:first-child {
+     color: rgb(0, 0, 0);
+}
+
+/* Style last list item */
+ol li:last-child {
+    color: rgb(0, 0, 0);
+}
+
+/* Style even list items */
+ol li:nth-child(even) {
+    background-color: lightgray;
+}
+
+/* Style odd list items */
+ol li:nth-child(odd) {
+    background-color: lightcyan;
+}
+
+
+/* ================= PSEUDO-ELEMENTS ================= */
+
+/* Add text before headings */
+h2::before {
+    content: "📌 ";
+}
+
+/* Add text after headings */
+h2::after {
+    content: " List";
+    color: red;
+}
+
+/* Style first letter of list */
+ol::first-letter {
+    color: rgb(0, 0, 0);
+}
