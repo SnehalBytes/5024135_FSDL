@@ -50,3 +50,93 @@ h2::after {
 ol::first-letter {
     color: rgb(0, 0, 0);
 }
+
+/* for the final */
+/* BODY STYLE */
+body {
+    background-color: #f0f8ff;
+    font-family: Verdana, sans-serif;
+    color: #222;
+    padding: 20px;
+}
+
+/* HEADING SELECTORS */
+h2, h3 {
+    color: #003366;
+}
+
+/* CLASS SELECTOR */
+.intro {
+    font-size: 18px;
+    color: #333;
+}
+
+/* LIST STYLE */
+.scholar-list li {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+/* TABLE STYLE */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+/* FORM INPUT STYLE */
+input, select, textarea {
+    padding: 5px;
+    border: 2px solid #003366;
+}
+
+/* PSEUDO CLASSES */
+a:hover {
+    color: red;
+    font-size: 18px;
+}
+
+input:focus {
+    background-color: lightyellow;
+}
+
+tr:hover {
+    background-color: #cce7ff;
+}
+
+/* PSEUDO ELEMENTS */
+h2::before {
+    content: "★ ";
+    color: orange;
+}
+
+h3::after {
+    content: " ✔";
+    color: green;
+}
+
+/* BUTTON STYLE */
+input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 8px;
+}
+
+input[type=reset] {
+    background-color: red;
+    color: white;
+    padding: 8px;
+}
+
+
