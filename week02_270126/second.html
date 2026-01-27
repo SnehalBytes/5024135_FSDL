@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TIME TABLE</title>
+
+    <style>
+        /* Body Styling */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        /* Heading Center Logo */
+        center b {
+            font-size: 24px;
+            color: #2c3e50;
+        }
+
+        /* Table Styling */
+        table {
+            border-collapse: collapse;
+            width: 70%;
+            background-color: white;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        caption {
+            font-size: 22px;
+            font-weight: bold;
+            padding: 10px;
+            color: #34495e;
+        }
+
+        th {
+            background-color: #2980b9;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            text-align: center;
+            padding: 8px;
+            font-size: 16px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ecf0f1;
+        }
+
+        tr:hover {
+            background-color: #d1f2eb;
+        }
+
+        /* Teacher List Styling */
+        .teacher-list {
+            width: 40%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 8px gray;
+        }
+
+        .teacher-list h3 {
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: square;
+            font-size: 16px;
+        }
+
+        li {
+            margin: 5px 0;
+            color: #34495e;
+        }
+
+        /* Selector Example */
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+
+<center>
+    <img src="logo.png" alt="Logo" width="150"><br>
+    <b>FR.CRIT</b>
+</center>
+
+<br>
+
+<table border="1" cellpadding="6" cellspacing="0" align="center">
+    <caption>TIME TABLE</caption>
+
+    <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+    </tr>
+
+    <tr>
+        <td>8.30-9.30</td>
+        <td>FSDL</td>
+        <td>CN</td>
+        <td>SE</td>
+        <td>EVS</td>
+        <td>MES</td>
+    </tr>
+
+    <tr>
+        <td>9.30-10.30</td>
+        <td>CN</td>
+        <td>SE</td>
+        <td>FSDL</td>
+        <td>MES</td>
+        <td>EVS</td>
+    </tr>
+
+    <tr>
+        <td>10.30-11.30</td>
+        <td class="highlight">Break</td>
+        <td class="highlight">Break</td>
+        <td class="highlight">Break</td>
+        <td class="highlight">Break</td>
+        <td class="highlight">Break</td>
+    </tr>
+
+    <tr>
+        <td>11.30-12.30</td>
+        <td>EVS</td>
+        <td>FSDL</td>
+        <td>MES</td>
+        <td>SE</td>
+        <td>CN</td>
+    </tr>
+
+</table>
+
+<!-- Teacher List -->
+<div class="teacher-list">
+    <h3>Subject Teachers List</h3>
+    <ul>
+        <li>EVS - Prof. Anandkumar Pardeshi</li>
+        <li>SE - Prof. Lakshmi</li>
+        <li>MES - Prof. Neelima</li>
+        <li>FSDL - Prof. Anandkumar Pardeshi</li>
+        <li>CN - Prof. Supriya Joshi</li>
+    </ul>
+</div>
+
+</body>
+</html>
