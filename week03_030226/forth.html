@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scholarship Portal</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="#">Scholarship Portal</a>
+    </div>
+</nav>
+
+<!-- LOGO & TITLE (JUMBOTRON STYLE) -->
+<div class="container text-center mt-4">
+    <div class="p-4 bg-light rounded shadow-sm">
+        <img src="image.png" alt="Logo" class="logo mb-3">
+        <h1 class="display-6 fw-bold">SCHOLARSHIP PORTAL</h1>
+        <p class="text-muted">Empowering students through financial support</p>
+    </div>
+</div>
+
+<!-- BREADCRUMB -->
+<div class="container mt-3">
+    <nav>
+        <ol class="breadcrumb justify-content-center">
+            <li class="breadcrumb-item">Home</li>
+            <li class="breadcrumb-item active">Scholarships</li>
+        </ol>
+    </nav>
+</div>
+
+<!-- ABOUT SECTION -->
+<div class="container mt-4 text-center">
+    <h2>About Scholarship</h2>
+    <p>
+        <strong>Scholarship Portal</strong> helps students apply for
+        <em>financial assistance</em> based on
+        <u>merit and need</u>.
+    </p>
+
+    <a href="https://www.scholarships.gov.in" target="_blank" class="btn btn-outline-primary">
+        Visit National Scholarship Portal
+    </a>
+</div>
+
+<hr class="container">
+
+<!-- AVAILABLE SCHOLARSHIPS -->
+<div class="container text-center">
+    <h3>Available Scholarships</h3>
+    <ul class="list-group list-group-flush mx-auto w-50">
+        <li class="list-group-item">Merit Based Scholarship</li>
+        <li class="list-group-item">Need Based Scholarship</li>
+        <li class="list-group-item">Minority Scholarship</li>
+        <li class="list-group-item">Sports Scholarship</li>
+    </ul>
+</div>
+
+<hr class="container">
+
+<!-- TABLE SECTION -->
+<div class="container">
+    <h3 class="text-center">Scholarship Details</h3>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped text-center mt-3">
+            <thead class="table-primary">
+                <tr>
+                    <th>Scholarship Name</th>
+                    <th>Eligibility</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Merit Scholarship</td>
+                    <td>Above 75%</td>
+                    <td>₹60,000</td>
+                </tr>
+                <tr>
+                    <td>Need Based</td>
+                    <td>Income below ₹2,00,000</td>
+                    <td>₹40,000</td>
+                </tr>
+                <tr>
+                    <td>Minority</td>
+                    <td>Minority Students</td>
+                    <td>₹60,000</td>
+                </tr>
+                <tr>
+                    <td>Sports Scholarship</td>
+                    <td>National Level Participation</td>
+                    <td>₹30,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<hr class="container">
+
+<!-- FORM SECTION -->
+<div class="container">
+    <h3 class="text-center">Scholarship Application Form</h3>
+
+    <form class="row g-3 mt-3 justify-content-center">
+        <div class="col-md-5">
+            <input type="text" class="form-control" placeholder="Student Name">
+        </div>
+
+        <div class="col-md-5">
+            <input type="text" class="form-control" placeholder="Roll Number">
+        </div>
+
+        <div class="col-md-5">
+            <input type="email" class="form-control" placeholder="Email">
+        </div>
+
+        <div class="col-md-5 text-center">
+            Gender:
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="gender">
+                <label class="form-check-label">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="gender">
+                <label class="form-check-label">Female</label>
+            </div>
+        </div>
+
+        <div class="col-md-5">
+            <select class="form-select">
+                <option>Course</option>
+                <option>B.Tech</option>
+                <option>BCA</option>
+                <option>B.Sc</option>
+            </select>
+        </div>
+
+        <div class="col-md-5">
+            <select class="form-select">
+                <option>Scholarship Type</option>
+                <option>Merit Based</option>
+                <option>Need Based</option>
+                <option>Minority</option>
+                <option>Sports</option>
+            </select>
+        </div>
+
+        <div class="col-md-10">
+            <textarea class="form-control" rows="3" placeholder="Address"></textarea>
+        </div>
+
+        <div class="col-md-10 text-center">
+            <button type="submit" class="btn btn-success px-4">Apply</button>
+            <button type="reset" class="btn btn-secondary px-4">Clear</button>
+        </div>
+    </form>
+</div>
+
+<hr class="container">
+
+<!-- MULTIMEDIA -->
+<div class="container text-center">
+    <h3>Scholarship Awareness Video</h3>
+    <video width="400" controls class="mt-2">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <h3 class="mt-4">Audio Information</h3>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+<br>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
