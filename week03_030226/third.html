@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Avengers & Characters Movies</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+    >
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #701222;
+            color: #e5e7eb;
+        }
+
+        /* Jumbotron Style */
+        .hero {
+            background: linear-gradient(135deg, #111827, #1f2933);
+            color: #bfe9fc;
+            padding: 40px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 0 25px rgba(0,0,0,0.7);
+        }
+
+        .container-box {
+            max-width: 850px;
+            margin: 40px auto;
+            background-color: #111827;
+            padding: 30px 35px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.6);
+        }
+
+        h2 {
+            color: #b6c1f5;
+            margin-top: 30px;
+            border-bottom: 1px solid #374151;
+            padding-bottom: 5px;
+        }
+
+        ol, ul {
+            font-size: 17px;
+            line-height: 1.8;
+        }
+
+        li {
+            padding: 4px;
+        }
+
+        li:hover {
+            color: #facc15;
+            cursor: pointer;
+        }
+
+        /* Breadcrumb Custom */
+        .breadcrumb {
+            background-color: transparent;
+        }
+
+        .breadcrumb-item a {
+            color: #93c5fd;
+            text-decoration: none;
+        }
+
+        .breadcrumb-item.active {
+            color: #e5e7eb;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mt-4">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Movies</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Avengers</li>
+        </ol>
+    </nav>
+
+    <!-- Jumbotron / Hero Section -->
+    <div class="hero text-center">
+        <h1 class="display-6 fw-bold">Avengers & Character Movies</h1>
+        <p class="lead mt-2">
+            Complete watching order of Avengers and individual MCU character movies
+        </p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container-box">
+
+        <h2>Avengers Movies</h2>
+        <ol>
+            <li>The Avengers (2012)</li>
+            <li>Avengers: Age of Ultron (2015)</li>
+            <li>Avengers: Infinity War (2018)</li>
+            <li>Avengers: Endgame (2019)</li>
+        </ol>
+
+        <h2>Iron Man Movies</h2>
+        <ul>
+            <li>Iron Man (2008)</li>
+            <li>Iron Man 2 (2010)</li>
+            <li>Iron Man 3 (2013)</li>
+        </ul>
+
+        <h2>Spider-Man Movies (MCU)</h2>
+        <ul>
+            <li>Spider-Man: Homecoming (2017)</li>
+            <li>Spider-Man: Far From Home (2019)</li>
+            <li>Spider-Man: No Way Home (2021)</li>
+        </ul>
+
+        <h2>Hulk Movies</h2>
+        <ul>
+            <li>The Incredible Hulk (2008)</li>
+        </ul>
+
+        <h2>Captain America Movies</h2>
+        <ul>
+            <li>Captain America: The First Avenger (2011)</li>
+            <li>Captain America: The Winter Soldier (2014)</li>
+            <li>Captain America: Civil War (2016)</li>
+        </ul>
+
+        <h2>Thor Movies</h2>
+        <ul>
+            <li>Thor (2011)</li>
+            <li>Thor: The Dark World (2013)</li>
+            <li>Thor: Ragnarok (2017)</li>
+            <li>Thor: Love and Thunder (2022)</li>
+        </ul>
+
+        <h2>Black Widow Movies</h2>
+        <ul>
+            <li>Black Widow (2021)</li>
+        </ul>
+
+        <h2>Wanda / Scarlet Witch</h2>
+        <ul>
+            <li>WandaVision (2021 - Series)</li>
+            <li>Doctor Strange in the Multiverse of Madness (2022)</li>
+        </ul>
+
+        <h2>Doctor Strange Movies</h2>
+        <ul>
+            <li>Doctor Strange (2016)</li>
+            <li>Doctor Strange in the Multiverse of Madness (2022)</li>
+        </ul>
+
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+</html>
