@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scholarship Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-container">
+
+    <!-- Registration Form -->
+    <div class="form-container">
+        <h2>Scholarship Registration</h2>
+
+        <form id="regForm">
+            <label>Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label>Date of Birth</label>
+            <input type="date" id="dob">
+
+            <label>Course</label>
+            <select id="course"></select>
+
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Enter password">
+
+            <button type="submit">Register</button>
+            <div id="message"></div>
+        </form>
+    </div>
+
+    <!-- Rules Section -->
+    <div class="rules-container">
+        <h2>Rules & Warnings</h2>
+        <ul>
+            <li>Applicants must be at least 18 years old.</li>
+            <li>All information must be correct and valid.</li>
+            <li>Fake or misleading details will lead to rejection.</li>
+            <li>Only one application per student is allowed.</li>
+            <li>Check your email regularly for updates.</li>
+        </ul>
+
+        <div class="warning">
+            ⚠ Once submitted, details cannot be edited.
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
