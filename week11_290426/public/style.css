@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f1f5f9;
+}
+
+/* Layout */
+.layout {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: #2563eb;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+/* Main */
+.main {
+  flex: 1;
+  padding: 30px;
+}
+
+/* Form */
+.form-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-box input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.form-box button {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* List */
+.list-box {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.delete {
+  background: #ef4444;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
